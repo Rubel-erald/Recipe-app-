@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import api from "../services/api";
-import RecipeList from "../components/RecipeList";
-import SearchBar from "../components/SearchBar";
-import Filter from "../components/Filter";
+import RecipeList from "../components/recipeList";
+import SearchBar from "../components/searchBar";
+import Filter from "../components/filter";
 
 function HomePage() {
   const [recipes, setRecipes] = useState([]);

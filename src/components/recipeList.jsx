@@ -1,4 +1,4 @@
-import RecipeCard from "./RecipeCard";
+import RecipeCard from "./recipeCard";
 
 function RecipeList({ recipes }) {
   return (
